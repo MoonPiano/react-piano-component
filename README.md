@@ -1,3 +1,10 @@
+# MoonPiano version of `react-piano-component`
+
+## Major changes:
+- Using tonal to specify start and end piano keys
+
+# Original ReadME:
+
 # react-piano-component
 A simple and customizable react piano component  
 Demo: https://lillydinhle.github.io/react-piano-component/

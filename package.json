@@ -22,7 +22,8 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.10",
-    "soundfont-player": "^0.10.6"
+    "soundfont-player": "^0.10.6",
+    "tonal": "^2.2.2"
   },
   "devDependencies": {
     "autoprefixer": "7.1.6",

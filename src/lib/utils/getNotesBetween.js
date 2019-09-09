@@ -1,7 +1,11 @@
-import NOTES from '../constants/NOTES';
+import { Note } from 'tonal';
 
 export default function getNotesBetween(startNote, endNote) {
-  const startingIndex = NOTES.indexOf(startNote);
-  const endingIndex = NOTES.indexOf(endNote);
-  return NOTES.slice(startingIndex, endingIndex + 1);
+  const notes = [];
+  let i = 0;
+  for (i = startNote; i <= endNote; i += 1) {
+    notes.push(Note.fromMidi(i, true));
+  }
+
+  return notes;
 }
